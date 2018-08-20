@@ -1,0 +1,14 @@
+#n Wyam.Sass
+
+Settings[Keys.Host] = "pack1862.org";
+Settings[Keys.LinksUseHttps] = true;
+
+Pipelines.Add("Sass",
+    ReadFiles("assets/css/**/{!_,}*.scss"),
+    Sass(),
+    WriteFiles()
+);
+
+Pipelines.Add("Assets",
+    CopyFiles("**/*{!.cshtml,!.md,!.less,!.yml,!.scss,}")
+);
