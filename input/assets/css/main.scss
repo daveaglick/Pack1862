@@ -4,8 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab');
 
 /*
 	Story by HTML5 UP
@@ -189,4 +188,9 @@
 	.logo {
 		width: 100%;
 		max-height: 50vh;
+	}
+
+	.logo-footer {
+		width: 100%;
+		max-width: 150px;
 	}

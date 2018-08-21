@@ -64,6 +64,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: _font(family-headings);
 		font-weight: _font(weight);
 		line-height: 1.375;
 		letter-spacing: _font(kerning);
@@ -210,8 +211,12 @@
 			color: _palette($p, fg-bold);
 		}
 
-		h1, h2, h3, h4, h5, h6 {
-			color: _palette($p, fg-bold);
+		h1, h2, h3 {
+			color: _palette($p, color1);
+		}
+
+		h4, h5, h6 {
+			color: _palette($p, color2);
 		}
 
 		blockquote {

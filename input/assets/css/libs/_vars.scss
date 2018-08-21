@@ -38,7 +38,8 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family:				('Roboto Condensed', sans-serif),
+		family-headings:	('Roboto Slab', sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		400,
@@ -50,11 +51,11 @@
 	$palette: (
 		color1:				#003F87,
 		color2:				#CE1126,
-		color3:				#f2dc5d,
-		color4:				#f2a359,
-		color5:				#db9065,
-		color6:				#a2b9d3,
-		color7:				#eda8b0,
+		color3:				#d6cebd,
+		color4:				#515354,
+		color5:				#9ab3d5,
+		color6:				#003366,
+		color7:				#e9e9e4,
 
 		bg:					#ffffff,
 		bg-alt:				#eeeeee,
